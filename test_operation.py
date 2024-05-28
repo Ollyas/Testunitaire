@@ -4,11 +4,11 @@ from app import addition, soustraction, multiplication, division
 
 class TestOperations(unittest.TestCase):
     def test_addition(self):
-        self.assertEqual(addition(2, 3), 6)
-        self.assertEqual(addition(-1, 1), 1)
+        self.assertEqual(addition(2, 3), 5)
+        self.assertEqual(addition(-1, 1), 0)
 
     def test_soustraction(self):
-        self.assertEqual(soustraction(5, 3), 5)
+        self.assertEqual(soustraction(5, 3), 2)
         self.assertEqual(soustraction(10, 7), 3)
 
     def test_multiplication(self):
